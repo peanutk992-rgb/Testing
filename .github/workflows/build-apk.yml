@@ -1,0 +1,44 @@
+# GameHub GameX - konfigurasi utama
+# Disimpan di penyimpanan lokal app. Bisa di-import/export dari menu Settings.
+
+app:
+  name: GameHub GameX
+  version: 1.0.0
+  theme: dark
+
+background:
+  image: sparkler.png
+  fullscreen: true
+  overlay: 0.45        # 0.0 (terang) sampai 1.0 (gelap)
+  blur: false
+
+ui:
+  style: glassmorphism
+  accent: "#FF1744"    # merah neon
+  secondary: "#9C27B0" # ungu
+  highlight: "#FF4081" # pink
+  animation: true
+  rounded_corners: true
+  corner_radius: 20
+
+navigation:
+  - Home
+  - Library
+  - Performance
+  - Settings
+
+features:
+  game_detection: true
+  game_launcher: true
+  recently_played: true
+  apk_picker: true
+  ram_monitor: true
+  cpu_monitor: true
+  storage_monitor: true
+  battery_monitor: true
+
+performance:
+  root_required: false
+  shizuku_required: false
+  refresh_rate_monitor: true
+  poll_interval_ms: 1000
